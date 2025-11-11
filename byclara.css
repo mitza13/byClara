@@ -1,0 +1,198 @@
+body {
+  margin: 0px;
+  background-color: #F3E2E9;
+}
+
+.tabs {
+  display: grid;
+  height: 40px;
+  grid-template-columns: 10% 22.5% 22.5% 22.5% 22.5% 10%;
+  text-align: center;
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hlogo {
+  background-color: #E2C5CF;
+}
+
+.hsblock {
+  background-color: #957D9D
+}
+
+.hblock {
+  background-color: #BDACC6;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.linkp {
+  color: #957D9D;
+}
+
+.hblock:hover,
+.hsblock:hover {
+  background-color: #957D9D;
+}
+
+.hlogo,
+.hblock,
+.hsblock {
+  border: 2px solid #12101D;
+  color: white;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+h1 {
+  color: #FFFEF7;
+  margin: 50px;
+  font-size: 50px;
+  font-family: "Bevan", serif;
+}
+
+p {
+  color: white;
+  margin: 50px;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 16px
+}
+
+h4 {
+  color: #100018;
+  margin: 50px;
+  font-size: 50px;
+  font-family: "Bevan", serif;
+}
+
+.ppur {
+  color: #100018;
+  margin: 50px;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 16px
+}
+
+table {
+  width: 100%;
+  background-color: #E2C5CF;
+  border-collapse: collapse;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 13px
+}
+
+td {
+  border: 3px solid white;
+  padding: 10px;
+  color: white;
+}
+
+main {
+  padding: 50px
+}
+
+.album1 {
+  background-color: #5B4769;
+}
+
+.artcell {
+  padding: 0%;
+  margin: 10px;
+}
+
+.artph1 {
+  height: 200px;
+  background-color: #FFFEF7;
+}
+
+.arttxt1 {
+  margin-top: 10px;
+}
+
+.artph1,
+.arttxt1,
+.artph2,
+.arttxt2 {
+  display: grid;
+  place-items: center;
+  border: 2px solid #12101D;
+}
+
+.artph2 {
+  float: left;
+  margin-right: 10px;
+}
+
+.arttxt2 {
+  width: 100px;
+  height: 325px;
+}
+
+.arttxt1,
+.arttxt2 {
+  background-color: #FFFEF7;
+  padding: 10px;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-size: 13px;
+}
+
+.artcell1 {
+  width: 250px;
+  padding: 0%;
+  margin: 10px;
+}
+
+.album2 {
+  background-color: #957D9D;
+}
+
+.album3 {
+  background-color: #E2C5CF;
+}
+
+.album4 {
+  background-color: #28183B;
+}
+
+.album1,
+.album2,
+.album3,
+.album4 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.capttbl {
+  font-weight: bold;
+}
+
+.homepg,
+.backstorypg {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.byclaradesc {
+  background-color: #E2C5CF;
+  text-align: center;
+}
+
+.exmplph {
+  background-color: #BDACC6;
+  text-align: center;
+
+}
+
+.abtart {
+  background-color: #E2C5CF;
+  text-align: center;
+}
+
+.abtartph {
+  background-color: #28183B;
+  text-align: center;
+}
